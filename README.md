@@ -13,6 +13,7 @@ Durante o desenvolvimento utilizei ferramentas como Vagrant, Ansible e Python. O
 |run_docker_compose.sh|Roda o docker compose.|
 |app*.dexter.com.br.conf|Arquivo de configuração do NGINX|
 |docker-compose.yml|Nomeia os containers, baixa e executa as imagens, e faz o bind das portas.|
+|4linux_teste_pratico_stack.png|Imagem da documentação gerada com Python Diagrams|
 
 ## Referências ##
 - [Documentação NGINX](https://docs.nginx.com/)
