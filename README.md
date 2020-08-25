@@ -15,13 +15,13 @@ Durante o desenvolvimento utilizei ferramentas como Vagrant, Ansible e Python. O
 |docker-compose.yml|Nomeia os containers, baixa e executa as imagens, e faz o bind das portas.|
 
 ## Referências ##
-[Documentação NGINX](https://docs.nginx.com/)
-[Documentação Ansible](https://docs.ansible.com/ansible/latest/index.html)
-[Documentação Diagrams](https://diagrams.mingrammer.com/docs/getting-started/installation)
-[Documentação Testinfra](https://testinfra.readthedocs.io/en/latest/)
-[Docker Hub httpd.](https://hub.docker.com/_/httpd)
-[Keycdn - NGINX Virtualhosts.](https://www.keycdn.com/support/nginx-virtual-host)
-[Digitalocean proxy_pass.](https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching)
-[Rafael Gomex, teste de infraestrutura.](https://www.youtube.com/watch?v=ZVHlKWLEyhE&t=1558s)
-[Documentation as Code.](https://www.youtube.com/watch?v=eI7jbBtnFrg)
-[João Maia - Desenhando infra.](https://blog.joaovrmaia.com/post/desenhando-infraestrutura-com-codigo/)
+- [Documentação NGINX](https://docs.nginx.com/)
+- [Documentação Ansible](https://docs.ansible.com/ansible/latest/index.html)
+- [Documentação Diagrams](https://diagrams.mingrammer.com/docs/getting-started/installation)
+- [Documentação Testinfra](https://testinfra.readthedocs.io/en/latest/)
+- [Docker Hub httpd.](https://hub.docker.com/_/httpd)
+- [Keycdn - NGINX Virtualhosts.](https://www.keycdn.com/support/nginx-virtual-host)
+- [Digitalocean proxy_pass.](https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching)
+- [Rafael Gomex, teste de infraestrutura.](https://www.youtube.com/watch?v=ZVHlKWLEyhE&t=1558s)
+- [Documentation as Code.](https://www.youtube.com/watch?v=eI7jbBtnFrg)
+- [João Maia - Desenhando infra.](https://blog.joaovrmaia.com/post/desenhando-infraestrutura-com-codigo/)
