@@ -35,9 +35,9 @@
     - name: Adicionando apontamento no arquivo hosts.
       command: "{{ item }}"
       with_items:
-        - echo "192.168.33.101 app1.dexter.com.br" >> /etc/hosts
-        - echo "192.168.33.101 app2.dexter.com.br" >> /etc/hosts
-        - echo "192.168.33.101 app3.dexter.com.br" >> /etc/hosts
+        - echo "34.121.245.54 app1.dexter.com.br" >> /etc/hosts
+        - echo "34.121.245.54 app2.dexter.com.br" >> /etc/hosts
+        - echo "34.121.245.54 app3.dexter.com.br" >> /etc/hosts
 
     - name: Instalando o Docker
       script: "{{ path_install_docker }}" 
