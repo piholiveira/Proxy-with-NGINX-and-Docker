@@ -11,17 +11,17 @@ Durante o desenvolvimento utilizei ferramentas como Vagrant, Ansible e Python. O
 |install_docker.sh|Instala o Docker baseado na documentação oficial.|
 |install_docker_compose.sh|Instala o Docker Compose baseado na documentação oficial.|
 |run_docker_compose.sh|Roda o docker compose.|
+|app*.dexter.com.br.conf|Arquivo de configuração do NGINX|
+|docker-compose.yml|Nomeia os containers, baixa e executa as imagens, e faz o bind das portas.|
 
 ## Referências ##
-https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/
-https://www.keycdn.com/support/nginx-virtual-host
-https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-9
-https://docs.docker.com/engine/install/debian/
-https://hub.docker.com/_/httpd
-https://diagrams.mingrammer.com/docs
-
-Dificuldades:
-Obtive minha primeira dificuldade com o nginx, onde o obtive o erro "curl: (7) Failed to connect to 192.168.33.101 port 80: Connection refused" ao tentar acessa-lo.
-No entanto, o erro estava no arquivo de configuração do virtual host em /etc/nginx/sites-avaliable/ somente com o nome app1.dexter.com.br não estava funcionando a conexão através do comando curl, sendo assim necessário colocar a extensão .conf para funcionar.
-mv app1.dexter.com.br app1.dexter.com.br.conf, como fiz um link simbólico para a pasta de sites enabled, não foi necessário alterar neste repositorio também.
+[Documentação NGINX](https://docs.nginx.com/)
+[Documentação Ansible](https://docs.ansible.com/ansible/latest/index.html)
+[Documentação Diagrams](https://diagrams.mingrammer.com/docs/getting-started/installation)
+[Documentação Testinfra](https://testinfra.readthedocs.io/en/latest/)
+[Docker Hub httpd.](https://hub.docker.com/_/httpd)
+[Keycdn - NGINX Virtualhosts.](https://www.keycdn.com/support/nginx-virtual-host)
+[Digitalocean proxy_pass.](https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching)
+[Rafael Gomex, teste de infraestrutura.](https://www.youtube.com/watch?v=ZVHlKWLEyhE&t=1558s)
+[Documentation as Code.](https://www.youtube.com/watch?v=eI7jbBtnFrg)
+[João Maia - Desenhando infra.](https://blog.joaovrmaia.com/post/desenhando-infraestrutura-com-codigo/)
