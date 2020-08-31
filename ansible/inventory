@@ -2,5 +2,5 @@
 dst_ip
 
 [all:vars]
-ansible_ssh_user=suporte
+ansible_ssh_user=username
 host_key_checking = False

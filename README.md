@@ -1,4 +1,6 @@
-# VirtualHosts e Proxy_Pass com NGINX e Docker.
+# VirtualHosts e Proxy_Pass com NGINX e Docker. #
+<p align="center"> <img src="https://img.shields.io/badge/Supported OS-Linux-Orange" alt=""> <img src="https://img.shields.io/badge/Using-Docker-Orange" alt=""> <img alt="Docker Image Size (tag)" src="https://img.shields.io/docker/image-size/pirodriguees/app2/1.0"> <img src="https://img.shields.io/badge/nginx-v1.10.3-blue" alt=""> <img src="https://img.shields.io/badge/httpd-v2.4-blue" alt=""></p>
+
 
 ## Objetivo: ##
 Instalar NGINX e Docker em uma máquina virtual na GCP, criar três Virtualhosts no NGINX para app1.dexter.com.br, app2.dexter.com.br, app3.dexter.com.br, e implementar proxy_pass para os containers Docker de nome app1, app2, e app3 com cada um deles rodando Apache.
