@@ -6,7 +6,7 @@ from diagrams.onprem.network import Nginx
 from diagrams.gcp.network import Routes
 
 
-with Diagram("4Linux Teste Pratico stack", show=False):
+with Diagram("Stack", show=False):
     with Cluster("GCP"):
         dns1 = Routes("app1.com.br")
         dns2 = Routes("app2.com.br")
