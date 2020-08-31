@@ -20,8 +20,7 @@ Durante o desenvolvimento utilizei ferramentas como Vagrant, Ansible e Python. O
 
 ## Resultado: ##
 
-*Ao acessar app1.dexter.com.br*
-![](https://lh3.google.com/u/0/d/1ugLhdZdxq_BykMS8yjpS-n-retKwsYp8=w940-h797-iv1)
+![]("https://github.com/piholiveira/Teste-Pratico-4Linux/blob/master/documentacao/stack.png")
 
 ## Referências ##
 - [Documentação NGINX](https://docs.nginx.com/)
