@@ -20,7 +20,7 @@ Durante o desenvolvimento utilizei ferramentas como Vagrant, Ansible e Python. O
 
 ## Resultado: ##
 
-![]("https://github.com/piholiveira/Teste-Pratico-4Linux/blob/master/documentacao/stack.png")
+![stack](https://user-images.githubusercontent.com/52767137/91721313-f1919000-eb6e-11ea-88df-7fdc124017df.png)
 
 ## Referências ##
 - [Documentação NGINX](https://docs.nginx.com/)
