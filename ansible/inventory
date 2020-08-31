@@ -1,5 +1,5 @@
-[4linux]
-34.121.245.54
+[Machine]
+dst_ip
 
 [all:vars]
 ansible_ssh_user=suporte

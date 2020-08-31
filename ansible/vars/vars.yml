@@ -1,8 +1,8 @@
-path_install_docker: /home/vinicius/Documents/project_learning/projects/4linux/ansible/scripts/install_docker.sh
-path_install_docker_compose: /home/vinicius/Documents/project_learning/projects/4linux/ansible/scripts/install_docker_compose.sh
-path_dockercompose_file: /home/vinicius/Documents/project_learning/projects/4linux/docker/docker-compose.yml
-path_dockercompose_script: /home/vinicius/Documents/project_learning/projects/4linux/ansible/scripts/run_docker_compose.sh
-path_conf_nginx_app1: /home/vinicius/Documents/project_learning/projects/4linux/nginx/sites-avaliable/app1.dexter.com.br.conf
-path_conf_nginx_app2: /home/vinicius/Documents/project_learning/projects/4linux/nginx/sites-avaliable/app2.dexter.com.br.conf
-path_conf_nginx_app3: /home/vinicius/Documents/project_learning/projects/4linux/nginx/sites-avaliable/app3.dexter.com.br.conf
-path_script_python: /home/vinicius/Documents/project_learning/projects/4linux/python/test_infra.py
+path_install_docker:
+path_install_docker_compose:
+path_dockercompose_file:
+path_dockercompose_script:
+path_conf_nginx_app1:
+path_conf_nginx_app2:
+path_conf_nginx_app3:
+path_script_python:

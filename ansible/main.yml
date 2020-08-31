@@ -1,8 +1,8 @@
 ---
-- hosts: 4linux
+- hosts: Machine
   become: yes
   vars_files:
-    - ~/Documents/project_learning/projects/4linux/ansible/vars/vars.yml
+    - ~/Documents/project_learning/projects/ansible/vars/vars.yml
 
   tasks:
     - name: "Rodando o equivalente de apt-get update"
@@ -35,14 +35,14 @@
     - name: Adicionando apontamento no arquivo hosts.
       command: "{{ item }}"
       with_items:
-        - echo "34.121.245.54 app1.dexter.com.br" >> /etc/hosts
-        - echo "34.121.245.54 app2.dexter.com.br" >> /etc/hosts
-        - echo "34.121.245.54 app3.dexter.com.br" >> /etc/hosts
+        - echo "ip_adress app1.dexter.com.br" >> /etc/hosts
+        - echo "ip_adress app2.dexter.com.br" >> /etc/hosts
+        - echo "ip_adress app3.dexter.com.br" >> /etc/hosts
 
     - name: Instalando o Docker
       script: "{{ path_install_docker }}" 
 
-    - name: Instalar Docker-Compose.
+    - name: Instalando Docker-Compose.
       script: "{{ path_install_docker_compose }}"
 
     - name: Rodando Docker-Compose.
